@@ -39,7 +39,7 @@ void keyPressed(){
     else velocidade = 20;
   }
   else if (key == 'f' || key == 'F'){
-    if (velocidade > 1) velocidade -= 1;
+    if (velocidade > 1) velocidade -= 0.5;
     else velocidade = 0;
   }
 }
